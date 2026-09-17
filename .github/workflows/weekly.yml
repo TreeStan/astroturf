@@ -1,0 +1,43 @@
+name: weekly leaderboard
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
+  workflow_dispatch:
+    inputs:
+      created:
+        description: "repo age window, e.g. 120d"
+        default: "120d"
+      min_stars:
+        description: "minimum stars"
+        default: "3000"
+      top:
+        description: "how many repos"
+        default: "30"
+permissions:
+  contents: write
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build report
+        env:
+          GITHUB_TOKEN: ${{ secrets.ASTROTURF_TOKEN || github.token }}
+        run: |
+          day=$(date -u +%F)
+          python astroturf.py -v trending \
+            --created "${{ github.event.inputs.created || '120d' }}" \
+            --min-stars "${{ github.event.inputs.min_stars || '3000' }}" \
+            --top "${{ github.event.inputs.top || '30' }}" \
+            --out "reports/$day.md"
+          cp "reports/$day.md" reports/latest.md
+      - name: Commit
+        run: |
+          git config user.name "astroturf-bot"
+          git config user.email "astroturf-bot@users.noreply.github.com"
+          git add reports/
+          git commit -m "report: $(date -u +%F)" || echo "nothing to commit"
+          git push

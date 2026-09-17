@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14532D"/>
+      <stop offset="1" stop-color="#052E16"/>
+    </linearGradient>
+    <linearGradient id="star" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDE047"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <!-- plastic grass -->
+  <g stroke="#4ADE80" stroke-width="14" stroke-linecap="round">
+    <line x1="80" y1="440" x2="80" y2="360"/><line x1="130" y1="440" x2="140" y2="350"/>
+    <line x1="180" y1="440" x2="170" y2="365"/><line x1="230" y1="440" x2="240" y2="345"/>
+    <line x1="280" y1="440" x2="275" y2="360"/><line x1="330" y1="440" x2="345" y2="350"/>
+    <line x1="380" y1="440" x2="372" y2="368"/><line x1="430" y1="440" x2="438" y2="356"/>
+  </g>
+  <rect x="48" y="432" width="416" height="32" rx="16" fill="#166534"/>
+  <!-- star on a stick -->
+  <line x1="256" y1="300" x2="256" y2="200" stroke="#A3A3A3" stroke-width="12" stroke-linecap="round"/>
+  <polygon points="256,72 293,158 386,166 316,228 337,320 256,272 175,320 196,228 126,166 219,158" fill="url(#star)" stroke="#0F172A" stroke-width="10" stroke-linejoin="round"/>
+  <!-- price tag -->
+  <g transform="rotate(-20 380 120)">
+    <rect x="340" y="90" width="96" height="56" rx="10" fill="#FFFFFF" stroke="#0F172A" stroke-width="8"/>
+    <circle cx="358" cy="118" r="7" fill="#0F172A"/>
+    <text x="372" y="128" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">$</text>
+  </g>
+</svg>
