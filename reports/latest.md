@@ -1,41 +1,41 @@
 # Trending, adjusted for astroturf signals
 
-Generated 2026-11-09 16:13 UTC. Query: `created:>=2026-07-12 stars:>=3000`. 30 repos.
+Generated 2026-11-16 15:41 UTC. Query: `created:>=2026-07-19 stars:>=3000`. 30 repos.
 
 **Read this first.** The score bundles public signals (new accounts among recent star actors, accounts created in batches, empty profiles, a flat daily star drip, watcher ratio). It is not evidence that anyone bought anything. A repo can score high because a farm used it as camouflage, because a bootcamp told 300 new accounts to star it, or because it is genuinely popular with newcomers. Every number here is reproducible with `astroturf.py check OWNER/REPO`.
 
 | adj | raw | repo | stars | score | label | new accts | same day | zero repos | drip cv | watchers/1k |
 |---:|---:|---|---:|---:|---|---:|---:|---:|---:|---:|
-| 1 | 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 277,228 | 28.8 | some signals | 1% | 3% | 23% | 0.27 | 4.2 |
-| 2 | 3 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 74,579 | 15.8 | looks organic | 5% | 3% | 33% | 0.94 | 3.1 |
-| 3 | 2 | [storytold/photocraft](https://github.com/storytold/photocraft) | 78,155 | 28.7 | some signals | 15% | 15% | 45% | 1.38 | 4.2 |
-| 4 | 6 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 52,531 | 11.5 | looks organic | 12% | 8% | 27% | 1.53 | 7.7 |
-| 5 | 5 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 55,270 | 16.4 | looks organic | 3% | 1% | 23% | 0.81 | 2.7 |
-| 6 | 7 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 42,390 | 16.3 | looks organic | 1% | 1% | 20% | 0.63 | 4.8 |
-| 7 | 9 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 35,279 | 5.1 | looks organic | 1% | 1% | 16% | 1.98 | 3.5 |
-| 8 | 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 67,227 | 52.8 | strong signals | 15% | 12% | 56% | 0.66 | 0.8 |
-| 9 | 8 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 35,507 | 14.3 | looks organic | 5% | 2% | 30% | 0.38 | 2.2 |
-| 10 | 12 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | 27,735 | 0.3 | looks organic | 3% | 1% | 18% | 0.41 | 8.7 |
-| 11 | 13 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 26,823 | 9.0 | looks organic | 6% | 3% | 32% | 0.42 | 4.4 |
-| 12 | 11 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 28,753 | 16.4 | looks organic | 5% | 3% | 33% | 1.21 | 2.0 |
-| 13 | 18 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 24,081 | 0.5 | looks organic | 1% | 2% | 21% | - | 5.0 |
-| 14 | 14 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 26,200 | 9.7 | looks organic | 2% | 1% | 21% | 0.97 | 2.6 |
-| 15 | 15 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 25,730 | 8.2 | looks organic | 1% | 1% | 13% | 2.70 | 2.5 |
-| 16 | 21 | [google-research/harness2](https://github.com/google-research/harness2) | 23,243 | 1.8 | looks organic | 1% | 1% | 18% | 1.90 | 4.5 |
-| 17 | 17 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | 24,306 | 8.8 | looks organic | 2% | 1% | 18% | 2.08 | 2.3 |
-| 18 | 10 | [yetone/magpie](https://github.com/yetone/magpie) | 33,019 | 33.3 | some signals | 1% | 1% | 15% | 0.44 | 1.1 |
-| 19 | 23 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 21,677 | 0.0 | looks organic | 1% | 1% | 10% | - | 7.6 |
-| 20 | 19 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 24,005 | 10.2 | looks organic | 1% | 3% | 21% | 0.53 | 1.8 |
-| 21 | 20 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 23,457 | 9.1 | looks organic | 3% | 1% | 21% | 0.55 | 2.4 |
-| 22 | 24 | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 21,039 | 5.4 | looks organic | 0% | 1% | 16% | 0.68 | 3.4 |
-| 23 | 29 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 18,922 | 0.1 | looks organic | 0% | 2% | 20% | 0.97 | 6.5 |
-| 24 | 26 | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 20,145 | 8.4 | looks organic | 0% | 12% | 12% | 1.13 | 4.0 |
-| 25 | 25 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 20,563 | 12.2 | looks organic | 3% | 3% | 26% | 1.07 | 2.0 |
-| 26 | 16 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 24,583 | 27.1 | some signals | 9% | 6% | 49% | 0.98 | 2.1 |
-| 27 | 30 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | 18,550 | 7.4 | looks organic | 3% | 1% | 35% | 1.42 | 4.5 |
-| 28 | 27 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 19,411 | 11.9 | looks organic | 3% | 1% | 28% | 1.64 | 2.4 |
-| 29 | 28 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 18,938 | 31.3 | some signals | 10% | 7% | 46% | 0.64 | 5.7 |
-| 30 | 22 | [lexmount/moli](https://github.com/lexmount/moli) | 23,155 | 47.1 | strong signals | 24% | 21% | 45% | 1.32 | 2.2 |
+| 1 | 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 282,214 | 40.5 | strong signals | 8% | 4% | 42% | 0.28 | 4.2 |
+| 2 | 2 | [storytold/photocraft](https://github.com/storytold/photocraft) | 79,761 | 7.2 | looks organic | 4% | 2% | 28% | 1.51 | 4.1 |
+| 3 | 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | 76,092 | 19.5 | looks organic | 10% | 7% | 33% | 0.97 | 3.2 |
+| 4 | 5 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 58,537 | 10.4 | looks organic | 3% | 2% | 23% | 0.96 | 2.8 |
+| 5 | 7 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | 44,811 | 15.0 | looks organic | 0% | 1% | 21% | 0.67 | 4.7 |
+| 6 | 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 77,092 | 54.6 | strong signals | 14% | 12% | 59% | 0.61 | 0.9 |
+| 7 | 10 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | 35,593 | 5.1 | looks organic | 0% | 1% | 13% | 2.09 | 3.5 |
+| 8 | 11 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | 34,515 | 3.3 | looks organic | 3% | 2% | 21% | - | 4.2 |
+| 9 | 9 | [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) | 36,155 | 15.9 | looks organic | 3% | 1% | 38% | 0.39 | 2.2 |
+| 10 | 8 | [yetone/magpie](https://github.com/yetone/magpie) | 37,498 | 34.0 | some signals | 3% | 1% | 17% | 0.42 | 1.1 |
+| 11 | 14 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 27,648 | 11.1 | looks organic | 4% | 2% | 27% | 1.07 | 2.7 |
+| 12 | 16 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | 26,104 | 8.5 | looks organic | 1% | 1% | 15% | 3.09 | 2.5 |
+| 13 | 6 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 54,399 | 56.2 | strong signals | 50% | 50% | 50% | 1.46 | 7.5 |
+| 14 | 20 | [google-research/harness2](https://github.com/google-research/harness2) | 24,089 | 1.7 | looks organic | 0% | 1% | 12% | 2.05 | 4.5 |
+| 15 | 24 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | 23,464 | 0.0 | looks organic | 0% | 1% | 11% | - | 7.6 |
+| 16 | 19 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | 24,542 | 8.9 | looks organic | 1% | 1% | 17% | 2.34 | 2.3 |
+| 17 | 15 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 27,583 | 20.8 | some signals | 11% | 9% | 45% | 0.43 | 4.4 |
+| 18 | 21 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | 24,034 | 10.6 | looks organic | 0% | 2% | 25% | 1.37 | 2.4 |
+| 19 | 12 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 30,124 | 28.7 | some signals | 6% | 3% | 29% | 0.69 | 2.0 |
+| 20 | 13 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | 27,951 | 23.2 | some signals | 6% | 4% | 43% | 0.94 | 2.2 |
+| 21 | 23 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 23,564 | 11.5 | looks organic | 3% | 1% | 27% | 0.50 | 2.4 |
+| 22 | 29 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | 19,934 | 0.0 | looks organic | 0% | 1% | 11% | 1.39 | 6.6 |
+| 23 | 17 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 24,876 | 20.0 | some signals | 0% | 7% | 43% | 0.54 | 1.7 |
+| 24 | 25 | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | 20,876 | 6.4 | looks organic | 0% | 6% | 25% | 1.22 | 3.9 |
+| 25 | 28 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | 20,196 | 3.3 | looks organic | 1% | 1% | 12% | 1.43 | 4.0 |
+| 26 | 30 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 19,384 | 1.7 | looks organic | 0% | 1% | 25% | 0.92 | 6.6 |
+| 27 | 27 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 20,437 | 18.2 | looks organic | 5% | 3% | 37% | 0.60 | 1.8 |
+| 28 | 26 | [Droid-Deck/DroidDeck](https://github.com/Droid-Deck/DroidDeck) | 20,464 | 25.6 | some signals | 5% | 5% | 46% | 0.67 | 5.5 |
+| 29 | 18 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 24,603 | 46.5 | strong signals | 10% | 6% | 53% | 0.58 | 2.0 |
+| 30 | 22 | [lexmount/moli](https://github.com/lexmount/moli) | 23,866 | 60.3 | strong signals | 34% | 29% | 46% | 1.27 | 2.1 |
 
 Columns: *new accts* = share of recent star actors under 7 days old; *same day* = largest share created on one day; *zero repos* = share with no public repos; *drip cv* = coefficient of variation of daily stars over the last 60 days (lower is flatter); *watchers/1k* = watchers per 1,000 stars.
 
